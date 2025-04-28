@@ -172,7 +172,7 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 
 /**
-* Desktop Navigation 
+* Desktop Navigation
 */
 
 .navbar {
@@ -237,8 +237,12 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
 }
 
+.navbar-nav {
+  margin-left: auto;
+}
+
 /**
-* Mobile Navigation 
+* Mobile Navigation
 */
 
 .mobile-nav-toggle {
@@ -1106,6 +1110,23 @@ section .container {
 
 .contact .php-email-form button[type="submit"]:hover {
   background: #15bb62;
+}
+
+.form-control {
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: #fff;
+}
+
+.form-control:focus {
+  background-color: rgba(255, 255, 255, 0.15);
+  border-color: #18d26e;
+  box-shadow: 0 0 0 0.25rem rgba(24, 210, 110, 0.25);
+  color: #fff;
+}
+
+.form-control::placeholder {
+  color: rgba(255, 255, 255, 0.6);
 }
 
 @-webkit-keyframes animate-loading {
